@@ -1,0 +1,7 @@
+# ali-to-phones --per-frame=true exp/multilingual/chain/tdnnf_768_90_xls_r_300m_18//phone_bigram_decode_fleurs_complete_MergedLID_train/../final.mdl "ark:gunzip -c exp/multilingual/chain/tdnnf_768_90_xls_r_300m_18//phone_bigram_decode_fleurs_complete_MergedLID_train/ali_tmp.*.gz|" "ark,t:|gzip -c >exp/multilingual/chain/tdnnf_768_90_xls_r_300m_18//phone_bigram_decode_fleurs_complete_MergedLID_train/ali_frame_tmp.gz" 
+# Started at Fri Jun 23 18:27:46 BST 2023
+#
+ali-to-phones --per-frame=true exp/multilingual/chain/tdnnf_768_90_xls_r_300m_18//phone_bigram_decode_fleurs_complete_MergedLID_train/../final.mdl 'ark:gunzip -c exp/multilingual/chain/tdnnf_768_90_xls_r_300m_18//phone_bigram_decode_fleurs_complete_MergedLID_train/ali_tmp.*.gz|' 'ark,t:|gzip -c >exp/multilingual/chain/tdnnf_768_90_xls_r_300m_18//phone_bigram_decode_fleurs_complete_MergedLID_train/ali_frame_tmp.gz' 
+LOG (ali-to-phones[5.5.872~1-d136b]:main():ali-to-phones.cc:134) Done 271798 utterances.
+# Accounting: time=58 threads=1
+# Ended (code 0) at Fri Jun 23 18:28:44 BST 2023, elapsed time 58 seconds
